@@ -5,9 +5,9 @@ import openpyxl
 from datetime import date
 
 # Define the SSH connection parameters
-username = "pi"  # replace with the username of the user whose password you want to change
-current_password = "radiocompi"  # replace with the current password for the user
-new_password = "radiocompi2"  # replace with the desired new password for the user
+username = "test1"  # replace with the username of the user whose password you want to change
+current_password = "test1"  # replace with the current password for the user
+new_password = "test2"  # replace with the desired new password for the user
 
 # Create empty lists to store the results
 success_ips = []
